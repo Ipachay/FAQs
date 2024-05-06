@@ -1,1 +1,1 @@
-# FAQs-Frontend
+# FAQs
