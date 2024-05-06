@@ -1,0 +1,133 @@
+
+.list-table-btn{
+  border-radius: 50rem;
+  border-width: 2px ;
+  border-color: #e63757;
+  font-family:  "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 13px;
+  color: rgb(211, 211, 211);   
+  background-color: #3120604c;
+  display: inline-block;
+  padding: 0.5rem 0;
+  margin-left: 0.5rem;
+  width: 3rem;
+}
+
+.add-table-button{
+  border-radius: 50rem;
+  font-family:  "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 13px;
+  color: rgb(211, 211, 211);   
+  background: rgba(255, 255, 255, 0.23);
+  display: inline-block;
+  padding: 0.5rem 0;
+  margin-top: 1cqmax;
+  margin-left: 0.5rem;
+  width: 7rem;
+}
+
+.main-container{    
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  overflow-x: hidden;
+  background: -webkit-linear-gradient(
+    top,
+    #681a639c 0%,
+    #3c1c65a5 62%,
+    #312060ba 100%
+  );   
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.list-table-container{   
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.23);         
+  border-radius: 10px;
+  box-shadow: 0 .4rem .8rem #0005;
+}
+.table, .table td, .table th {
+  border: none;
+}
+.bg-headers, th{
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.621);
+  color:rgb(31, 31, 31) !important;
+  text-align: center; 
+  vertical-align: middle;  
+}
+.table, td{
+  font-size: 12px;
+  color:rgb(211, 211, 211)!important;
+  font-weight: 500;
+  text-align: center; 
+  vertical-align: middle;
+}
+section.org-table-header {
+  width: 100%;
+  text-align: center;
+  padding: 0.60rem 0 1.5rem;      
+  font-weight: 600;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 25px ;
+}
+section.org-table-header h1{
+  font-size: 25px ;
+}
+
+.table-list{
+  width: 40px;
+  height: 40px;
+  margin-right: .5rem;
+  vertical-align: middle;
+}
+table, th, td{
+  padding: 1rem !important;
+}
+.table-body tr {
+  position: relative; 
+}
+.table-body tr:not(:last-child)::after {
+  content: '';
+  position: absolute; 
+  left: 0; 
+  bottom: 0; 
+  width: 100%; 
+  height: 1px;
+  background-color: #312060ba;
+}
+.table-body tr:nth-child(even){
+  background-color: #0000000b;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.table-header{
+  width: 32%;
+}
+
+.table-list{
+  width:12%
+}
+
+.table-category{
+  width: 12%;
+}
+
+
+.modal-table{
+  position:relative;
+  background-color: #0b1727;
+  width: 150%;
+  max-height: 76vh;
+}
+
+
